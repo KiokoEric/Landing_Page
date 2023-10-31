@@ -31,9 +31,9 @@ return (
                 </nav>
             </section>
             <section>
-                <a href='Contact' className='Button' >
+                <Link to='Contact' className='Button' >
                     <button>Contact Now</button>
-                </a>
+                </Link>
                 <figure onClick={()=> {setExtendNavbar((curr) => !curr)}} >
                         {ExtendNavbar ? <i  id="Bars" class="fa-solid fa-bars"></i> :<i id='Bars' class="fa-solid fa-xmark"></i> }
                 </figure>

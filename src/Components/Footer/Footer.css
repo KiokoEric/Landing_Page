@@ -39,7 +39,7 @@
 @media (max-width:428px) {
 
     .Footer{
-        width: 430px;
+        width: 430px; 
     }
     .Footer article {
         color: white;
