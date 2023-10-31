@@ -70,7 +70,7 @@ return (
                         <img src={Foot_Protection} alt="" />
                     </figure>
                     <figcaption>
-                        <h3>Protective Foot Wear</h3> 
+                        <h3>Protective Foot Wear</h3>  
                     </figcaption>
                 </Link>
             </section>
