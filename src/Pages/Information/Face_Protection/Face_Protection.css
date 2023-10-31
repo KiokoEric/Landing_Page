@@ -1,0 +1,178 @@
+.FaceProtection {
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+    margin-bottom: 2.5rem;
+}
+.FaceProtection article:first-child {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../../Images/Face_Protection.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    margin-bottom: 1.5rem;
+}
+.FaceProtection article:first-child h1 {
+    color: white;
+    font-family: 'Instrument Serif', serif;
+    font-size: 50px;
+}
+.FaceProtection article:last-child {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    column-gap: 2rem;
+    row-gap: 2.5rem;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.FaceProtection article:last-child div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.FaceProtection article:last-child figure {
+    height: 400px;
+}
+.FaceProtection article:last-child figure img {
+    border-radius: 8px;
+    width: 400px;
+}
+.FaceProtection article:last-child figcaption h3 {
+    font-size: 28px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .FaceProtection {
+        width: 768px;
+    }
+    .FaceProtection article:first-child {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../../Images/Face_Protection.jpg);
+        background-position: center;
+        border-radius: 3px;
+        height: 350px;
+        width: 100%;
+    }
+    .FaceProtection article:first-child h1 {
+        font-size: 50px;
+    }
+    .FaceProtection article:first-child p {
+        width: 700px;
+    }
+    .FaceProtection article:last-child {
+        display: grid;
+        grid-template-columns: 230px 230px 230px ;
+        column-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2.5rem;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+    .FaceProtection article:last-child figure {
+        height: 250px;
+    }
+    .FaceProtection article:last-child figure img {
+        border-radius: 8px;
+        width: 200px;
+    }
+    .FaceProtection article:last-child figcaption h3 {
+        font-size: 20px;
+    }
+    .FaceProtection article:last-child figcaption p {
+        text-align: center;
+    }
+}
+
+@media (max-width:428px) {
+    .FaceProtection {
+        width: 420px;
+    }
+    .FaceProtection article:first-child {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../../Images/Face_Protection.jpg);
+        background-position: center;
+        border-radius: 3px;
+        height: 400px;
+        margin-left: 0.5rem;
+        width: 100%;
+    }
+    .FaceProtection article:first-child h1 {
+        font-size: 40px;
+    }
+    .FaceProtection article:first-child h3 {
+        text-align: center;
+    }
+    .FaceProtection article:first-child p {
+        text-align: center;
+        width: 400px;
+    }
+    .FaceProtection article:last-child {
+        display: grid;
+        grid-template-columns: 400px;
+        column-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2.5rem;
+        margin: auto;
+        margin-left: 0.8rem;
+        margin-bottom: 4rem;
+    }
+    .FaceProtection article:last-child figure {
+        height: 400px;
+    }
+    .FaceProtection article:last-child figure img {
+        border-radius: 8px;
+        width: 350px;
+    }
+    .FaceProtection article:last-child figcaption h3 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:375px) {
+    .FaceProtection {
+        width: 375px;
+    }
+    .FaceProtection article:first-child {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../../Images/Face_Protection.jpg);
+        background-position: center;
+        border-radius: 3px;
+        height: 400px;
+        margin-left: 0.5rem;
+        width: 100%;
+    }
+    .FaceProtection article:first-child h1 {
+        font-size: 40px;
+    }
+    .FaceProtection article:first-child h3 {
+        text-align: center;
+    }
+    .FaceProtection article:first-child p {
+        text-align: center;
+        width: 350px;
+    }
+    .FaceProtection article:last-child {
+        display: grid;
+        grid-template-columns: 350px;
+        column-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2.5rem;
+        margin: auto;
+        margin-left: 0.8rem;
+        margin-bottom: 4rem;
+    }
+    .FaceProtection article:last-child figure {
+        height: 350px;
+    }
+    .FaceProtection article:last-child figure img {
+        border-radius: 8px;
+        width: 300px;
+    }
+    .FaceProtection article:last-child figcaption h3 {
+        font-size: 32px;
+    }
+}

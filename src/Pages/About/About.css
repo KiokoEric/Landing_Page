@@ -1,0 +1,209 @@
+.About {
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    margin-bottom: 2.5rem;
+}
+.About article:first-child {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../Images/About_Profile.jpg);
+    background-position: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    margin-bottom: 1.5rem;
+}
+.About article:first-child h1 {
+    color: white;
+    font-family: 'Instrument Serif', serif;
+    font-size: 50px;
+}
+.About article:nth-child(2)  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+.About article img {
+    border-radius: 8px;
+    width: 500px;
+}   
+.About article:nth-child(2) section:last-child h2 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}   
+.About article:nth-child(2) section:last-child div {
+    margin-bottom: 1.5rem;
+}   
+.About article h3 {
+    font-size: 30px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+}  
+.About article:last-child  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2.5rem;
+    margin: auto;
+    width: 80%;
+}
+
+
+@media (max-width:768px) {
+    .About {
+        width: 768px;
+    }
+    .About article:first-child {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../Images/About_Profile.jpg);
+        background-position: center;
+        border-radius: 3px;
+        height: 350px;
+        width: 768px;
+    }
+    .About article:nth-child(2)  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        width: 750px;
+    }
+    .About article img {
+        border-radius: 8px;
+        width: 600px;
+    } 
+    .About article h3 {
+        font-size: 28px;
+        margin-top: 0.8rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }  
+    .About article p {
+        font-size: 20px;
+        width: 700px;
+    }  
+    .About article:nth-child(2) section:last-child div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 2rem;
+        width: 750px;
+    } 
+    .About article:last-child  {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        margin: auto;
+        width: 750px;
+    }
+}
+
+@media (max-width:768px) {
+    .About {
+        width: 768px;
+    }
+    .About article:first-child {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../Images/About_Profile.jpg);
+        background-position: center;
+        border-radius: 3px;
+        height: 350px;
+        width: 768px;
+    }
+    .About article:nth-child(2)  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        width: 750px;
+    }
+    .About article img {
+        border-radius: 8px;
+        width: 600px;
+    } 
+    .About article h3 {
+        font-size: 28px;
+        margin-top: 0.8rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }  
+    .About article p {
+        font-size: 20px;
+        width: 700px;
+    }  
+    .About article:nth-child(2) section:last-child div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 2rem;
+        width: 750px;
+    } 
+    .About article:last-child  {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        margin: auto;
+        width: 750px;
+    }
+}
+
+@media (max-width:428px) {
+    .About {
+        width: 428px;
+    }
+    .About article:first-child {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../Images/About_Profile.jpg);
+        background-position: center;
+        border-radius: 3px;
+        height: 350px;
+        width: 428px;
+    }
+    .About article:nth-child(2)  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        width: 428px;
+    }
+    .About article img {
+        border-radius: 8px;
+        width: 400px;
+    } 
+    .About article h3 {
+        font-size: 28px;
+        margin-top: 0.8rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }  
+    .About article p {
+        font-size: 20px;
+        width: 400px;
+    }  
+    .About article:nth-child(2) section:last-child div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 2rem;
+        width: 420px;
+    } 
+    .About article:last-child  {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        margin: auto;
+        width: 420px;
+    }
+}
