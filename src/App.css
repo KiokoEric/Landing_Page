@@ -18,6 +18,9 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-track {
   background-color: black;
 }
+.App {
+  overflow-x: hidden;
+}
 body {
   font-family: 'Instrument Serif', serif;
 }
