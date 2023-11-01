@@ -24,3 +24,14 @@ html::-webkit-scrollbar-track {
 body {
   font-family: 'Instrument Serif', serif;
 }
+
+@media (max-width:428px) {
+  .App {
+    min-height: 40vh;
+  }
+}
+@media (max-width:375px) {
+  .App {
+    min-height: 40vh;
+  }
+}
