@@ -40,11 +40,13 @@
     margin: auto;
     margin-bottom: 4rem;
 }
-.Home article:last-child div {
+.Inventory{
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 .Home article:last-child figure {
     height: 400px;
@@ -58,6 +60,9 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
+}
+.Inventory h3:hover {
+    color: orangered;
 }
 .Home article:last-child figcaption p {
     font-size: 20px;

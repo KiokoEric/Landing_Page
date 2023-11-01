@@ -8,6 +8,7 @@ import Respiratory_Protection from "../../Images/Respiratory_Protection.jpg";
 import Hand_Gloves from "../../Images/Protective_HandGloves.jpg";
 import Foot_Protection from "../../Images/Foot_Protection.jpg";
 import Protective_Clothing from "../../Images/Protective_Clothing.webp";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -27,7 +28,7 @@ return (
         <article>
             <h2>Our Products</h2>
             <section data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="1500" >
-                <div>
+                <Link to="/HeadGear" className='Inventory' >
                     <figure>
                         <img src={Head_Gear} alt="" />
                     </figure>
@@ -37,8 +38,8 @@ return (
                         Protective headgear refers to equipment designed to protect the head from various types of injuries and is commonly used in sports, industrial settings, and other activities where there is a risk of head trauma. Protective headgears that we provide are <b>Motorcycle Helmets, Industrial Helmets and Firefighter Helmets.</b> 
                         </p>
                     </figcaption>
-                </div>
-                <div>
+                </Link>
+                <Link to="/FaceProtection" className='Inventory' >
                     <figure>
                         <img src={Eye_Protection} alt="" />
                     </figure>
@@ -48,8 +49,8 @@ return (
                             Eye and face protection rfers to equipment designed to safeguard the eyes and face from various potential hazards in settings where there is a risk of eye injuries, such as exposure to flying debris, chemical splashes, high-velocity impact, intense light, or harmful radiation. Eye and face protection that we provide are <b>Antimist Goggles, Face Shield, Safety Glasses/ Spectacles, Safety Goggles, Welding Helmet and Welding Safety Goggles.</b> 
                         </p>
                     </figcaption> 
-                </div>
-                <div>
+                </Link>
+                <Link to="/HearingProtection" className='Inventory' >
                     <figure>
                         <img src={Ear_Protection} alt="" />
                     </figure>
@@ -59,10 +60,10 @@ return (
                             Hearing protection refers to equipment designed to reduce or eliminate exposure to excessive noise levels, thereby safeguarding the hearing of individuals who are at risk of noise-induced hearing damage or loss. Hearing Protection devices that we provide are <b>Earplugs and Ear Muffs.</b>
                         </p>
                     </figcaption>
-                </div>
+                </Link>
             </section>
             <section data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1500" >
-                <div>
+                <Link to="/RespiratoryProtection" className='Inventory' >
                     <figure>
                         <img src={Respiratory_Protection} alt="" />
                     </figure>
@@ -72,8 +73,8 @@ return (
                             Respiratory protection refers to equipment used to safeguard the respiratory system from exposure to harmful airborne contaminants, particles, gases, vapors, or pathogens. Respiratory protection devices we provide are <b>Disposable Dustmasks, 3M Half Face Respiratory Mask and 3M Full Face Respiratory Mask.</b> 
                         </p>
                     </figcaption>
-                </div>
-                <div>
+                </Link>
+                <Link to="/HandGloves" className='Inventory' >
                     <figure>
                         <img src={Hand_Gloves} alt="" />
                     </figure>
@@ -83,8 +84,8 @@ return (
                             Protective hand gloves are specialized gloves designed to protect the hands from various hazards including physical injuries, chemicals, extreme temperatures, and biological agents. Protective hand gloves that we provide are <b>Canvas Gloves, Cold Room Gloves, Cotton Hand Gloves, Cut Resistant Gloves, Diamond Grip Work Gloves, Latex Gloves, Leather Gloves, Nitrile Gloves, PVC Gloves, Rider Hand Gloves and Welding Gloves. </b> 
                         </p>
                     </figcaption>
-                </div>
-                <div>
+                </Link>
+                <Link to="/FootWear" className='Inventory' >
                     <figure>
                         <img src={Foot_Protection} alt="" />
                     </figure>
@@ -94,10 +95,10 @@ return (
                             Protective footwear, also known as safety footwear or work boots, are footwear to protect the feet from various workplace hazards and injuries. Protective Footwear that we provide are <b>Gum Boots, Safety Shoes, Security Boots and Steel-Toed Boots.</b>
                         </p>
                     </figcaption>
-                </div>
+                </Link>
             </section>
             <section data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="1500" >
-                <div>
+                <Link to="/ProtectiveClothing" className='Inventory' >
                     <figure>
                         <img src={Protective_Clothing} alt="" />
                     </figure>
@@ -107,7 +108,7 @@ return (
                             Personal protective clothing refers to apparel designed to protect individuals from various workplace hazards and risks. Personal protective clothing that we provide are <b> Aprons, Chef Uniform, Dust Coats, Dungarees, Eskimo Suits, Kaunda Suits, Overalls, PVC Aprons, Rain Coats, Rider Suits, Security Guard Uniform and Spray Suits. </b>
                         </p>
                     </figcaption>
-                </div>
+                </Link>
             </section>
         </article>
     </div>
