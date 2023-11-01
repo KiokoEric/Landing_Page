@@ -91,7 +91,7 @@
 
 @media (max-width:428px) {
     .Products {
-        width: 420px;
+        width: 428px;
     }
     .Products article:first-child {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../Images/Products_Image.jpg');
@@ -118,7 +118,7 @@
         justify-content: center;
         row-gap: 2.5rem;
         margin: auto;
-        margin-left: 0.8rem;
+        margin-left: 0.4rem;
         margin-bottom: 4rem;
     }
     .Products article:last-child figure {
@@ -162,7 +162,7 @@
         justify-content: center;
         row-gap: 2.5rem;
         margin: auto;
-        margin-left: 0.8rem;
+        margin-left: 0.4rem;
         margin-bottom: 4rem;
     }
     .Products article:last-child figure {

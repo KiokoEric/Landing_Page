@@ -177,7 +177,7 @@
     }
     .About article img {
         border-radius: 8px;
-        width: 400px;
+        width: 350px;
     } 
     .About article h3 {
         font-size: 28px;
@@ -205,5 +205,57 @@
         row-gap: 2rem;
         margin: auto;
         width: 420px;
+    }
+}
+
+@media (max-width:375px) {
+    .About {
+        width: 375px;
+    }
+    .About article:first-child {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../Images/About_Profile.jpg);
+        background-position: center;
+        border-radius: 3px;
+        height: 350px;
+        width: 375px;
+    }
+    .About article:nth-child(2)  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        width: 350px;
+    }
+    .About article img {
+        border-radius: 8px;
+        width: 300px;
+    } 
+    .About article h3 {
+        font-size: 28px;
+        margin-top: 0.8rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }  
+    .About article p {
+        font-size: 20px;
+        width: 350px;
+    }  
+    .About article:nth-child(2) section:last-child div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 2rem;
+        width: 350px;
+    } 
+    .About article:last-child  {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        margin: auto;
+        width: 350px;
     }
 }
