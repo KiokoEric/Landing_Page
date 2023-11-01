@@ -41,7 +41,7 @@ return (
                 </Link>
                 <Link to="/FaceProtection" className='Inventory' >
                     <figure>
-                        <img src={Eye_Protection} alt="" />
+                        <img src={Eye_Protection} alt="" /> 
                     </figure>
                     <figcaption>
                         <h3>Eye and Face Protection</h3>

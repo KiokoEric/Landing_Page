@@ -95,7 +95,7 @@
         margin: auto;
         margin-bottom: 4rem;
     }
-    .Home article:last-child figure {
+    .Home article:last-child figure { 
         height: 250px;
     }
     .Home article:last-child figure img {
@@ -130,6 +130,10 @@
     .Home article:first-child p {
         text-align: center;
         width: 400px;
+    }
+    .Home article:last-child {
+        margin-left: -0.65rem;
+        padding: 0rem;
     }
     .Home article:last-child section {
         display: grid;
@@ -174,6 +178,10 @@
     .Home article:first-child p {
         text-align: center;
         width: 350px;
+    }
+    .Home article:last-child {
+        margin-left: -0.5rem;
+        padding: 0rem;
     }
     .Home article:last-child section {
         display: grid;
