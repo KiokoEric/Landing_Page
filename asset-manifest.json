@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Davesafe_Limited/static/css/main.c55b49a9.css",
-    "main.js": "/Davesafe_Limited/static/js/main.d9ce6d0c.js",
+    "main.js": "/Davesafe_Limited/static/js/main.23b5f435.js",
     "static/js/787.c255f066.chunk.js": "/Davesafe_Limited/static/js/787.c255f066.chunk.js",
     "static/media/Home_Image2.jpg": "/Davesafe_Limited/static/media/Home_Image2.46cd11715e7f44a3f523.jpg",
     "static/media/Dust_Coats.png": "/Davesafe_Limited/static/media/Dust_Coats.160801b88418fe7d9d90.png",
@@ -15,9 +15,9 @@
     "static/media/Red_PVC_Gloves.jpg": "/Davesafe_Limited/static/media/Red_PVC_Gloves.4ca00fa20d007c61aae2.jpg",
     "static/media/Foot_Protection_Image.webp": "/Davesafe_Limited/static/media/Foot_Protection_Image.9dd41622134e24aa6e22.webp",
     "static/media/Respiratory_Protection.jpg": "/Davesafe_Limited/static/media/Respiratory_Protection.afa9c75da367099798a2.jpg",
-    "static/media/Foot_Protection.jpg": "/Davesafe_Limited/static/media/Foot_Protection.b1c50ee4800445a317b5.jpg",
     "static/media/Contact.jpg": "/Davesafe_Limited/static/media/Contact.ef8a7f22186f0747939e.jpg",
     "static/media/Products_Image.jpg": "/Davesafe_Limited/static/media/Products_Image.eb5519a5302d0804b1b9.jpg",
+    "static/media/Foot_Protection.jpeg": "/Davesafe_Limited/static/media/Foot_Protection.68b327e5919e3b51f960.jpeg",
     "static/media/Respiratory_Protection_Image.jpg": "/Davesafe_Limited/static/media/Respiratory_Protection_Image.c5a63fc611b2825e023b.jpg",
     "static/media/About_Profile2.jpg": "/Davesafe_Limited/static/media/About_Profile2.ec458f333f293184a4b0.jpg",
     "static/media/Welding_Shield.jpg": "/Davesafe_Limited/static/media/Welding_Shield.1ecd1a310085d2292afd.jpg",
@@ -57,11 +57,11 @@
     "static/media/Latex_Gloves.webp": "/Davesafe_Limited/static/media/Latex_Gloves.f43444bfe1aba5c63d4e.webp",
     "index.html": "/Davesafe_Limited/index.html",
     "main.c55b49a9.css.map": "/Davesafe_Limited/static/css/main.c55b49a9.css.map",
-    "main.d9ce6d0c.js.map": "/Davesafe_Limited/static/js/main.d9ce6d0c.js.map",
+    "main.23b5f435.js.map": "/Davesafe_Limited/static/js/main.23b5f435.js.map",
     "787.c255f066.chunk.js.map": "/Davesafe_Limited/static/js/787.c255f066.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c55b49a9.css",
-    "static/js/main.d9ce6d0c.js"
+    "static/js/main.23b5f435.js"
   ]
 }
