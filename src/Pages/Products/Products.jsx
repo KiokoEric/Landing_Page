@@ -7,7 +7,7 @@ import Eye_Protection from "../../Images/Eye_Protection.jpg";
 import Ear_Protection from "../../Images/Ear_Protection.jpg";
 import Respiratory_Protection from "../../Images/Respiratory_Protection.jpg";
 import Hand_Gloves from "../../Images/Protective_HandGloves.jpg";
-import Foot_Protection from "../../Images/Foot_Protection.jpg";
+import Foot_Protection from "../../Images/Foot_Protection.jpeg";
 import Protective_Clothing from "../../Images/Protective_Clothing.webp";
 
 const Products = () => {

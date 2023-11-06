@@ -6,7 +6,7 @@ import Eye_Protection from "../../Images/Eye_Protection.jpg";
 import Ear_Protection from "../../Images/Ear_Protection.jpg";
 import Respiratory_Protection from "../../Images/Respiratory_Protection.jpg";
 import Hand_Gloves from "../../Images/Protective_HandGloves.jpg";
-import Foot_Protection from "../../Images/Foot_Protection.jpg";
+import Foot_Protection from "../../Images/Foot_Protection.jpeg";
 import Protective_Clothing from "../../Images/Protective_Clothing.webp";
 import { Link } from 'react-router-dom';
 
@@ -92,7 +92,7 @@ return (
                     <figcaption>
                         <h3>Protective Foot Wear</h3>
                         <p>
-                            Protective footwear, also known as safety footwear or work boots, are footwear to protect the feet from various workplace hazards and injuries. Protective Footwear that we provide are <b>Gum Boots, Safety Shoes, Security Boots and Steel-Toed Boots.</b>
+                            Protective footwear, also known as safety footwear or work boots, are footwear to protect the feet from various workplace hazards and injuries. Protective Footwear that we provide are <b>Gum Boots, Safety Shoes, Safety Boots, Security Boots and Steel-Toed Boots.</b>
                         </p>
                     </figcaption>
                 </Link>
